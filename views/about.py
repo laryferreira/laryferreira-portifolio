@@ -112,22 +112,6 @@ st.write("""
 """)
 st.divider()
 
-# Company Logos Section
-st.subheader("Programs I've been selected to")
-logo_container = st.container()
-with logo_container:
-    st.markdown("<div style='display: flex; justify-content: space-around;'>", unsafe_allow_html=True)
-    # Add logos with hover effect
-    logos = [
-        {"src": "img/btglogo.png", "alt": "Company 1"},
-        {"src": "img/profile.png", "alt": "Company 2"},
-        {"src": "img/logo3.png", "alt": "Company 3"},
-        # Add more logos as needed
-    ]
-    for logo in logos:
-        st.markdown(f"<img src='{logo['src']}' alt='{logo['alt']}' class='hover-effect' />", unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
-
 # Footer
 st.markdown(
     """

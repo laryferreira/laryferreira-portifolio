@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
-
 # Color palette
 colors = {
     'lightest_blue': '#f7d1cd',
